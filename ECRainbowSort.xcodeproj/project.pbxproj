@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E11396301B47775800A401AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E113962F1B47775800A401AB /* Foundation.framework */; };
+		E11396321B47775800A401AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11396311B47775800A401AB /* CoreGraphics.framework */; };
+		E11396341B47775800A401AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11396331B47775800A401AB /* UIKit.framework */; };
+		E113963A1B47775800A401AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E11396381B47775800A401AB /* InfoPlist.strings */; };
+		E113963C1B47775800A401AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E113963B1B47775800A401AB /* main.m */; };
+		E11396401B47775800A401AB /* ECAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E113963F1B47775800A401AB /* ECAppDelegate.m */; };
+		E11396431B47775800A401AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11396411B47775800A401AB /* Main.storyboard */; };
+		E11396481B47775800A401AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E11396471B47775800A401AB /* Images.xcassets */; };
+		E113964F1B47775800A401AB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E113964E1B47775800A401AB /* XCTest.framework */; };
+		E11396501B47775800A401AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E113962F1B47775800A401AB /* Foundation.framework */; };
+		E11396511B47775800A401AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11396331B47775800A401AB /* UIKit.framework */; };
+		E11396591B47775800A401AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E11396571B47775800A401AB /* InfoPlist.strings */; };
+		E113965B1B47775800A401AB /* ECRainbowSortTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E113965A1B47775800A401AB /* ECRainbowSortTests.m */; };
+		E113DD771B47792A00649450 /* ECSortAlgorithms.m in Sources */ = {isa = PBXBuildFile; fileRef = E113DD761B47792A00649450 /* ECSortAlgorithms.m */; };
+		E1DB240B1B4BB6E60014D9F8 /* ECSortController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DB240A1B4BB6E60014D9F8 /* ECSortController.m */; };
+		E1DB240E1B4BB71D0014D9F8 /* ECMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DB240D1B4BB71D0014D9F8 /* ECMainController.m */; };
+		E1DB24111B4BBC070014D9F8 /* ECSortView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DB24101B4BBC070014D9F8 /* ECSortView.m */; };
+		E1DB24141B4CEE490014D9F8 /* ECRainbowSortAlgorithms.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DB24131B4CEE490014D9F8 /* ECRainbowSortAlgorithms.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E11396521B47775800A401AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E11396241B47775800A401AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E113962B1B47775800A401AB;
+			remoteInfo = ECRainbowSort;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E113962C1B47775800A401AB /* ECRainbowSort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECRainbowSort.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E113962F1B47775800A401AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E11396311B47775800A401AB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E11396331B47775800A401AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E11396371B47775800A401AB /* ECRainbowSort-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ECRainbowSort-Info.plist"; sourceTree = "<group>"; };
+		E11396391B47775800A401AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E113963B1B47775800A401AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E113963D1B47775800A401AB /* ECRainbowSort-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ECRainbowSort-Prefix.pch"; sourceTree = "<group>"; };
+		E113963E1B47775800A401AB /* ECAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECAppDelegate.h; sourceTree = "<group>"; };
+		E113963F1B47775800A401AB /* ECAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECAppDelegate.m; sourceTree = "<group>"; };
+		E11396421B47775800A401AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E11396471B47775800A401AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E113964D1B47775800A401AB /* ECRainbowSortTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECRainbowSortTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E113964E1B47775800A401AB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E11396561B47775800A401AB /* ECRainbowSortTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ECRainbowSortTests-Info.plist"; sourceTree = "<group>"; };
+		E11396581B47775800A401AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E113965A1B47775800A401AB /* ECRainbowSortTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECRainbowSortTests.m; sourceTree = "<group>"; };
+		E113DD751B47792A00649450 /* ECSortAlgorithms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSortAlgorithms.h; sourceTree = "<group>"; };
+		E113DD761B47792A00649450 /* ECSortAlgorithms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSortAlgorithms.m; sourceTree = "<group>"; };
+		E1DB24091B4BB6E60014D9F8 /* ECSortController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSortController.h; sourceTree = "<group>"; };
+		E1DB240A1B4BB6E60014D9F8 /* ECSortController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSortController.m; sourceTree = "<group>"; };
+		E1DB240C1B4BB71D0014D9F8 /* ECMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECMainController.h; sourceTree = "<group>"; };
+		E1DB240D1B4BB71D0014D9F8 /* ECMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECMainController.m; sourceTree = "<group>"; };
+		E1DB240F1B4BBC070014D9F8 /* ECSortView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSortView.h; sourceTree = "<group>"; };
+		E1DB24101B4BBC070014D9F8 /* ECSortView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSortView.m; sourceTree = "<group>"; };
+		E1DB24121B4CEE490014D9F8 /* ECRainbowSortAlgorithms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECRainbowSortAlgorithms.h; sourceTree = "<group>"; };
+		E1DB24131B4CEE490014D9F8 /* ECRainbowSortAlgorithms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECRainbowSortAlgorithms.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E11396291B47775800A401AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11396321B47775800A401AB /* CoreGraphics.framework in Frameworks */,
+				E11396341B47775800A401AB /* UIKit.framework in Frameworks */,
+				E11396301B47775800A401AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E113964A1B47775800A401AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E113964F1B47775800A401AB /* XCTest.framework in Frameworks */,
+				E11396511B47775800A401AB /* UIKit.framework in Frameworks */,
+				E11396501B47775800A401AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E11396231B47775800A401AB = {
+			isa = PBXGroup;
+			children = (
+				E11396351B47775800A401AB /* ECRainbowSort */,
+				E11396541B47775800A401AB /* ECRainbowSortTests */,
+				E113962E1B47775800A401AB /* Frameworks */,
+				E113962D1B47775800A401AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E113962D1B47775800A401AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E113962C1B47775800A401AB /* ECRainbowSort.app */,
+				E113964D1B47775800A401AB /* ECRainbowSortTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E113962E1B47775800A401AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E113962F1B47775800A401AB /* Foundation.framework */,
+				E11396311B47775800A401AB /* CoreGraphics.framework */,
+				E11396331B47775800A401AB /* UIKit.framework */,
+				E113964E1B47775800A401AB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E11396351B47775800A401AB /* ECRainbowSort */ = {
+			isa = PBXGroup;
+			children = (
+				E113DD741B4777C900649450 /* Lib */,
+				E113963E1B47775800A401AB /* ECAppDelegate.h */,
+				E113963F1B47775800A401AB /* ECAppDelegate.m */,
+				E11396411B47775800A401AB /* Main.storyboard */,
+				E1DB24091B4BB6E60014D9F8 /* ECSortController.h */,
+				E1DB240A1B4BB6E60014D9F8 /* ECSortController.m */,
+				E1DB240F1B4BBC070014D9F8 /* ECSortView.h */,
+				E1DB24101B4BBC070014D9F8 /* ECSortView.m */,
+				E1DB24121B4CEE490014D9F8 /* ECRainbowSortAlgorithms.h */,
+				E1DB24131B4CEE490014D9F8 /* ECRainbowSortAlgorithms.m */,
+				E1DB240C1B4BB71D0014D9F8 /* ECMainController.h */,
+				E1DB240D1B4BB71D0014D9F8 /* ECMainController.m */,
+				E11396471B47775800A401AB /* Images.xcassets */,
+				E11396361B47775800A401AB /* Supporting Files */,
+			);
+			path = ECRainbowSort;
+			sourceTree = "<group>";
+		};
+		E11396361B47775800A401AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E11396371B47775800A401AB /* ECRainbowSort-Info.plist */,
+				E11396381B47775800A401AB /* InfoPlist.strings */,
+				E113963B1B47775800A401AB /* main.m */,
+				E113963D1B47775800A401AB /* ECRainbowSort-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E11396541B47775800A401AB /* ECRainbowSortTests */ = {
+			isa = PBXGroup;
+			children = (
+				E113965A1B47775800A401AB /* ECRainbowSortTests.m */,
+				E11396551B47775800A401AB /* Supporting Files */,
+			);
+			path = ECRainbowSortTests;
+			sourceTree = "<group>";
+		};
+		E11396551B47775800A401AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E11396561B47775800A401AB /* ECRainbowSortTests-Info.plist */,
+				E11396571B47775800A401AB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E113DD741B4777C900649450 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				E113DD751B47792A00649450 /* ECSortAlgorithms.h */,
+				E113DD761B47792A00649450 /* ECSortAlgorithms.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E113962B1B47775800A401AB /* ECRainbowSort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E113965E1B47775800A401AB /* Build configuration list for PBXNativeTarget "ECRainbowSort" */;
+			buildPhases = (
+				E11396281B47775800A401AB /* Sources */,
+				E11396291B47775800A401AB /* Frameworks */,
+				E113962A1B47775800A401AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ECRainbowSort;
+			productName = ECRainbowSort;
+			productReference = E113962C1B47775800A401AB /* ECRainbowSort.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E113964C1B47775800A401AB /* ECRainbowSortTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E11396611B47775800A401AB /* Build configuration list for PBXNativeTarget "ECRainbowSortTests" */;
+			buildPhases = (
+				E11396491B47775800A401AB /* Sources */,
+				E113964A1B47775800A401AB /* Frameworks */,
+				E113964B1B47775800A401AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E11396531B47775800A401AB /* PBXTargetDependency */,
+			);
+			name = ECRainbowSortTests;
+			productName = ECRainbowSortTests;
+			productReference = E113964D1B47775800A401AB /* ECRainbowSortTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E11396241B47775800A401AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EC;
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					E113962B1B47775800A401AB = {
+						DevelopmentTeam = 4UBYU2GH5M;
+					};
+					E113964C1B47775800A401AB = {
+						TestTargetID = E113962B1B47775800A401AB;
+					};
+				};
+			};
+			buildConfigurationList = E11396271B47775800A401AB /* Build configuration list for PBXProject "ECRainbowSort" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E11396231B47775800A401AB;
+			productRefGroup = E113962D1B47775800A401AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E113962B1B47775800A401AB /* ECRainbowSort */,
+				E113964C1B47775800A401AB /* ECRainbowSortTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E113962A1B47775800A401AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11396481B47775800A401AB /* Images.xcassets in Resources */,
+				E113963A1B47775800A401AB /* InfoPlist.strings in Resources */,
+				E11396431B47775800A401AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E113964B1B47775800A401AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11396591B47775800A401AB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E11396281B47775800A401AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1DB24141B4CEE490014D9F8 /* ECRainbowSortAlgorithms.m in Sources */,
+				E1DB24111B4BBC070014D9F8 /* ECSortView.m in Sources */,
+				E11396401B47775800A401AB /* ECAppDelegate.m in Sources */,
+				E1DB240B1B4BB6E60014D9F8 /* ECSortController.m in Sources */,
+				E113963C1B47775800A401AB /* main.m in Sources */,
+				E1DB240E1B4BB71D0014D9F8 /* ECMainController.m in Sources */,
+				E113DD771B47792A00649450 /* ECSortAlgorithms.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11396491B47775800A401AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E113965B1B47775800A401AB /* ECRainbowSortTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E11396531B47775800A401AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E113962B1B47775800A401AB /* ECRainbowSort */;
+			targetProxy = E11396521B47775800A401AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E11396381B47775800A401AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E11396391B47775800A401AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E11396411B47775800A401AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E11396421B47775800A401AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E11396571B47775800A401AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E11396581B47775800A401AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E113965C1B47775800A401AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E113965D1B47775800A401AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E113965F1B47775800A401AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: xiangjin liu (THUALHPYBR)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ECRainbowSort/ECRainbowSort-Prefix.pch";
+				INFOPLIST_FILE = "ECRainbowSort/ECRainbowSort-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E11396601B47775800A401AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: xiangjin liu (THUALHPYBR)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ECRainbowSort/ECRainbowSort-Prefix.pch";
+				INFOPLIST_FILE = "ECRainbowSort/ECRainbowSort-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E11396621B47775800A401AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ECRainbowSort.app/ECRainbowSort";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ECRainbowSort/ECRainbowSort-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ECRainbowSortTests/ECRainbowSortTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E11396631B47775800A401AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ECRainbowSort.app/ECRainbowSort";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ECRainbowSort/ECRainbowSort-Prefix.pch";
+				INFOPLIST_FILE = "ECRainbowSortTests/ECRainbowSortTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E11396271B47775800A401AB /* Build configuration list for PBXProject "ECRainbowSort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E113965C1B47775800A401AB /* Debug */,
+				E113965D1B47775800A401AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E113965E1B47775800A401AB /* Build configuration list for PBXNativeTarget "ECRainbowSort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E113965F1B47775800A401AB /* Debug */,
+				E11396601B47775800A401AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E11396611B47775800A401AB /* Build configuration list for PBXNativeTarget "ECRainbowSortTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11396621B47775800A401AB /* Debug */,
+				E11396631B47775800A401AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E11396241B47775800A401AB /* Project object */;
+}
