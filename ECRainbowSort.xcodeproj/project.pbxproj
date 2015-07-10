@@ -227,9 +227,6 @@
 				CLASSPREFIX = EC;
 				LastUpgradeCheck = 0510;
 				TargetAttributes = {
-					E113962B1B47775800A401AB = {
-						DevelopmentTeam = 4UBYU2GH5M;
-					};
 					E113964C1B47775800A401AB = {
 						TestTargetID = E113962B1B47775800A401AB;
 					};
@@ -411,11 +408,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: xiangjin liu (THUALHPYBR)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ECRainbowSort/ECRainbowSort-Prefix.pch";
 				INFOPLIST_FILE = "ECRainbowSort/ECRainbowSort-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -425,11 +423,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: xiangjin liu (THUALHPYBR)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ECRainbowSort/ECRainbowSort-Prefix.pch";
 				INFOPLIST_FILE = "ECRainbowSort/ECRainbowSort-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

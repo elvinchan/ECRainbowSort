@@ -65,8 +65,7 @@ float hueValue[10000];
 
 - (instancetype)initWithFrame:(CGRect)frame
 {
-    CGFloat cubeWidth = frame.size.width / columnNum;
-    int rowNum = frame.size.height / cubeWidth;
+    float rowNum = frame.size.height * columnNum / frame.size.width;
     
     self.totalCube = rowNum * columnNum;
     // 制造随机颜色列表
@@ -83,7 +82,7 @@ float hueValue[10000];
     CGContextRef context = UIGraphicsGetCurrentContext();
     
     // 方块边长
-    CGFloat cubeWidth = rect.size.width / columnNum;
+    float cubeWidth = rect.size.width / columnNum;
 
     for (int i = 0; i < self.totalCube; i++) {
         CGRect cubeRect = CGRectMake((i % columnNum) * cubeWidth, (i / columnNum) * cubeWidth, cubeWidth, cubeWidth);
@@ -152,9 +151,9 @@ float hueValue[10000];
     // 算法名称列表
     NSArray *nameList = AlgorithmsList;
     NSString *name = nameList[self.algorithmsIndex];
-    NSNumber *timeInterval = [NSNumber numberWithFloat:-[startTime timeIntervalSinceNow]];
+    float timeInterval = [[NSNumber numberWithFloat:-[startTime timeIntervalSinceNow]] floatValue];
     
-    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:name message:[NSString stringWithFormat:@"排序用时:%@秒", timeInterval] delegate:self cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:name message:[NSString stringWithFormat:@"排序用时:%.3f秒", timeInterval] delegate:self cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
     
     // 取消运行循环
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
